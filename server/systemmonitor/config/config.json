@@ -1,0 +1,45 @@
+{
+    "test_interval": 300,
+    "ping" : {
+        "ping_count" : 5,
+        "schema" : {}   
+    },
+    "http" : {
+        "schema" : {}   
+    },
+    "storage" : {
+        "driver" : "sqlite",
+        "instance" : {}      
+    },
+    "notifications" : [
+      {
+          "name": "Apple Push Notifications",
+          "driver": "apns"
+      }  
+    ],
+    "hosts": {
+        "TestServer": "test.server.com",
+        "router": "192.168.1.1",
+        "iMac": "192.168.1.5",
+        "Server1": "10.100.0.27",
+        "Server2": "10.100.0.28",
+        "Server3": "10.100.0.26",
+        "Server4": "10.100.0.44",
+        "Server5": "10.100.0.45",
+        "Server6": "mail.server.com",
+        "nameserver1": "nameserver1.server.com",
+        "nameserver2": "nameserver2.server.com",
+        "Server7": "10.100.1.100",
+        "Server8": "10.100.1.101"
+    },
+    "sqlite": {
+        "database": "sysmon.db"
+    },
+    "apns": {
+        "key": "../../certs/apns.key.pem",
+        "cert": "../../certs/apns.crt.pem"
+    },
+    
+    "notifiers": []
+    
+}

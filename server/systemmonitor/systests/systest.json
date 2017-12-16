@@ -1,0 +1,116 @@
+[
+    {
+        "test_name": "SysTest",
+        "protocol": "ping",
+        "group": "Ping",
+        "host": "Server1",
+        "test_interval": 5,
+        "notification_threshold": 50
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "ping",
+        "group": "Ping",
+        "host": "Server2",
+        "test_interval": 5,
+        "notification_threshold": 50
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "ping",
+        "group": "Ping",
+        "host": "Server3",
+        "test_interval": 5,
+        "notification_threshold": 50
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "ping",
+        "group": "Ping",
+        "host": "Server4",
+        "test_interval": 5,
+        "notification_threshold": 50
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "ping",
+        "group": "Ping",
+        "host": "Server5",
+        "test_interval": 5,
+        "notification_threshold": 50
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "http",
+        "group": "Http",
+        "host": "Server5",
+        "test_interval": 5,
+        "notification_threshold": 50
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "imaps",
+        "group": "Mail",
+        "host": "Server6",
+        "test_interval": 5,
+        "notification_threshold": 50,
+        "username": "email@server.com",
+        "password": "password",
+        "port": 993   
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "pop3",
+        "group": "Mail",
+        "host": "Server6",
+        "test_interval": 5,
+        "notification_threshold": 50,
+        "username": "email@server.com",
+        "password": "password",
+        "port": 995   
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "smtp",
+        "group": "Mail",
+        "host": "Server6",
+        "test_interval": 5,
+        "notification_threshold": 50,
+        "username": "email@server.com",
+        "password": "password",
+        "port": 587   
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "dns",
+        "group": "DNS",
+        "host": "nameserver1",
+        "test_interval": 5,
+        "notification_threshold": 50
+    },
+    {
+	"test_name": "SysTest",
+	"protocol": "dns",
+	"group": "DNS",
+	"host": "nameserver2",
+	"test_interval": 5,
+	"notification_threshold": 50
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "dns",
+        "group": "DNS",
+        "host": "Server7",
+        "test_interval": 5,
+        "notification_threshold": 50
+    },
+    {
+        "test_name": "SysTest",
+        "protocol": "dns",
+        "group": "DNS",
+        "host": "Server8",
+        "test_interval": 5,
+        "notification_threshold": 50
+    }
+
+]
